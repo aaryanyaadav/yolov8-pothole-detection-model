@@ -1,4 +1,4 @@
-# 🕳️ Pothole Detection using YOLOv8
+#  Pothole Detection using YOLOv8
 
 This repository contains a **trained YOLOv8 object detection model** along with a **simple inference script** to detect potholes in road images.
 
@@ -6,7 +6,7 @@ The project is designed to demonstrate **end-to-end pothole detection**, from a 
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 - Detect potholes in road images using **YOLOv8**
 - Run offline inference on a single image
@@ -16,7 +16,7 @@ The project is designed to demonstrate **end-to-end pothole detection**, from a 
 
 ---
 
-## 🧠 Model Overview
+##  Model Overview
 
 - **Model Architecture:** YOLOv8  
 - **Task:** Object Detection  
@@ -28,7 +28,7 @@ The project is designed to demonstrate **end-to-end pothole detection**, from a 
 
 ---
 
-## 🏋️ Training Details
+##  Training Details
 
 - **Base Model:** YOLOv8 (pretrained on COCO)
 - **Training Type:** Transfer Learning
@@ -45,7 +45,7 @@ The project is designed to demonstrate **end-to-end pothole detection**, from a 
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 The model was evaluated on a validation dataset with the following results:
 
@@ -64,7 +64,7 @@ The model was evaluated on a validation dataset with the following results:
 
 ---
 
-## 🧪 Inference Script
+##  Inference Script
 
 The repository includes a **simple Python inference script** that:
 - Loads the trained YOLOv8 model
@@ -75,7 +75,7 @@ The repository includes a **simple Python inference script** that:
 
 This script is intended for **testing and evaluating the trained model**.
 
-## 📁 Project Structure
+##  Project Structure
 pothole-detection/
 │
 ├── predict.py # Inference script
@@ -85,7 +85,7 @@ pothole-detection/
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
 
-## ⚙️ Installation Guide
+##  Installation Guide
 
 ### Clone the repository
 
@@ -102,7 +102,7 @@ bash
 Copy code
 pip install -r requirements.txt
 
-### ▶ How to Run the Project
+###  How to Run the Project
 1. Place your trained YOLOv8 model in the project directory:
 best.pt
 
